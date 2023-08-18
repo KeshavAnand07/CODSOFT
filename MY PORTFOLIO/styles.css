@@ -1,0 +1,270 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background:#080808;
+    color:white
+}
+#header{
+    width:100%;
+    height:100vh;
+    background-image:url(bckg.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.logo{
+    width:300px;
+    margin-top: 20px;
+}
+nav ul li{
+   display:inline-block;
+   list-style:none;
+   margin:0px 10px; 
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    position :relative;
+}
+nav ul li a::after{
+    content:'';
+    width:0%;
+    height:3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5 sec;
+}
+nav ul li a:hover::after{
+    width:100%
+}
+.purple{
+    color:purple;
+}
+.about-col-1 img{
+    height:400px;
+    border-radius: 50%;
+}
+#about{
+    padding: 80px 0;
+    color:#ababab;
+    margin-top: 30px;
+
+}
+.row{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+
+}
+.about-col-1{
+    flex-basis:15%;
+}
+.about-col-2{
+    flex-basis:60%;
+}
+.subtitle{
+  margin: 10px;
+    font-size:60px;
+    font-weight:600;
+    color:white;
+}
+
+  
+  #skills-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  #skills-container h1{
+    margin-left: 200px;
+    margin-bottom: 50px;
+  }
+
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .skill-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #3498db;
+  }
+  
+  .skill-details {
+    flex: 1;
+  }
+  
+  .skill-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .skill-progress {
+    height: 10px;
+    background-color:black;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .skill-bar {
+    height: 100%;
+    background-color: orangered;
+    border-radius: 5px;
+  }
+  /* styles.css */
+
+  
+  #projects-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+  #projects-container h1 {
+margin-bottom:20px;
+  }
+  
+  .project {
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .project-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #080808;
+  }
+  
+  .project-description {
+    font-size: 16px;
+    color: #666;
+  }
+  .ab{
+    margin-left: 400px;
+  }
+  
+#contact {
+  background-color:black;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact-form textarea {
+  resize: vertical;
+}
+
+#contact-form button {
+  background-color: #007bff;
+  color:orange;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Query for responsiveness */
+
+
+footer {
+  background-color:brown;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  margin: 0 15px;
+}
+
+.social-links img {
+  width: 40px;
+  height: 40px;
+}
+.ii{
+  color:aqua;
+  font-size:25px;
+}
+.change{
+  color:white;
+}
